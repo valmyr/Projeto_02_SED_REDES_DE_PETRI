@@ -55,6 +55,7 @@ Para copiar esse repositório remoto na sua máquina local, utilize o comando `g
 git clone https://github.com/valmyr/SED_2024.2-Projeto-2.git
 ```
 ### Passo 3: Execute o CPN Tools
+Procure na busca de seu respectivo sistema operacional por CPN Tools e execute
 ### Passo 4: Carregue o projeto
 Segure na barra `Create Tool Box` o botão direito do mouse e desloque o cursor para `Load Net`, navegue até o diretório onde foi realizado o clone do repositório SeuDiretorio/src e clique em `projeto_2_sed-V15_final.cpn` 
 ### Passo 4: Para simular 
