@@ -1,4 +1,5 @@
-# Sistemas à Eventos Discretos - Aplicação de Redes de Petri Coloridas 
+# Sistemas à Eventos Discretos
+## Aplicação dos conceitos de Redes de Petri Coloridas.
 # Contribuidores
 
 - José Hélio de Araújo Júnior - 124212317
@@ -9,7 +10,7 @@ Para uma explicação detalhada do funcionamento do sistema e uma demonstração
 [Vídeo de Demonstração do Funcionamento](https://www.youtube.com/watch?v=Dyq_ksFtxUk)
 
 ## Descrição Geral do Projeto
-Implementar uma sistema que representa uma fábrica com quatro células de manufatura usando redes de Petri coloridas e a ferramenta CPN Tools. As celulas  possuem um depósito de entrada, um depósito de saída, três máquinas e três robôs. Cada uma das máquinas possui um depósito de
+Implementar uma sistema que representa uma fábrica com quatro células de manufatura usando os conceitos de redes de Petri coloridas aprendidos durante o curso, na ferramenta CPN Tools. As celulas  possuem um depósito de entrada, um depósito de saída, três máquinas e três robôs. Cada uma das máquinas possui um depósito de
 entrada e um depósito de saída. Os robôs são responsáveis por movem itens entre os diversos depósitos conforme a figura abaixo.
 <img title="Diagrama de alto nível da célula" alt="Alt text" src="images/diagrama_em_alto_nivel.png">
 
@@ -18,8 +19,9 @@ depósito de entrada da célula para o depósito de entrada da máquina 1. O rob
 transporta itens do depósito de saída da máquina 1 para os depósitos de entrada
 das máquinas 2 e 3. Por fim, o robô 3 transporta itens dos depósitos de saída das
 máquinas 2 e 3 para o depósito de saída da célula de manufatura.
-
-### Rede de Petri Máquina 0x
+### Caracterização dos subcomponentes e componentes que compõe a modelagem do sistema.
+#### Rede de Petri Máquina 0x:
+Este subcomponente é o modelo base de todas às máquinas, e é responsável por simular o processamento dos produtos fictícios do sistema. Seu funcioanmente é uma abstração do sistema real e consiste em retirar um produto da entrada e dispor em sua saída.
 <img title="Rede de Petri Máquina Modelo Base" alt="Alt text" src="images/rede_maquina_base.png">
 
 ### Rede de Petri Rôbo 1
@@ -38,3 +40,7 @@ máquinas 2 e 3 para o depósito de saída da célula de manufatura.
 <img title="Rede de Petri  Fábrica Modelo" alt="Alt text" src="images/rede_fabrica.png">
 
 
+
+## Ferramentas e suas versões
+ * `CPN Tools 4.0.1` 
+## Como Executar o Projeto
