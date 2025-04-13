@@ -1,7 +1,18 @@
-## Projeto 02 SED  REDES DE PETRI
 
+# Contribuidores
+
+- José - 1191
+- Valmir Ferreira da Silva          - 119211110
+
+# Vídeo de Demonstração
+Para uma explicação detalhada do funcionamento do sistema e uma demonstração da simulação,
+[Vídeo de Demonstração do Funcionamento](https://www.youtube.com/watch?v=Dyq_ksFtxUk)
+## Projeto 02 SED  REDES DE PETRI
 # Modelagem de um sistema de manufatura com quatro células usando Redes de Petri Coloridas
 
+# Vídeo de Demonstração
+Para uma explicação detalhada do funcionamento do sistema e uma demonstração da simulação,
+[Vídeo de Demonstração do Funcionamento](https://www.youtube.com/watch?v=Dyq_ksFtxUk)
 ### Diagrama de alto nível da célula.
 <img title="Diagrama de alto nível da célula" alt="Alt text" src="images/diagrama_em_alto_nivel.png">
 
