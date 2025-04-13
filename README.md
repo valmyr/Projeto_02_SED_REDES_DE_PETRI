@@ -18,8 +18,7 @@ das máquinas 2 ou 3. Por fim, o robô 3 transporta itens dos depósitos de saí
 máquinas 2 ou 3 para o depósito de saída da célula de manufatura.
 ### Caracterização dos componentes e subcomponentes que compõe a modelagem do sistema.
 #### Rede de Petri da Máquina 0x:
-Este subcomponente é modelo base de todas às máquinas, e é responsável por simular o processamento dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em retirar um item/produto da entrada Este subcomponente é modelo base de todas às máquinas, e é responsável por simular o processamento dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em retirar um item/produto da entrada  e dispor em sua saída do respectivo depósito associado.
-entrada entrada e dispor em sua saída dos respectivos depósitos associado.
+Este subcomponente é modelo base de todas às máquinas, e é responsável por simular o processamento dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em retirar um item/produto da entrada e dispor à saída de seu respectivo depósito.
 <img title="Rede de Petri Máquina Modelo Base" alt="Alt text" src="images/rede_maquina_base.png">
 
 ### Rede de Petri Rôbo 1
@@ -42,7 +41,22 @@ Este módulo é o modelo base de todas às células de manufatura e está em um 
 Este módulo é o nível de hierarquia mais elevado do sistema que incorpora todos os submódulos e módulos anteriores e representa uma fábrica, onde temos quatro instâncias de células e cada uma possui 3 rôbos, 3 máquinas e 6 depósitos com seus respectivos limitadores de depósitos associados, tais limitadores impõem os limites iguais a quatro itens/produtos por depósitos. Cabe ressaltar que não existe limite na entrada e nem na saída das células de manufatura tornado-a uma rede de petri com tamanho infinito.
 <img title="Rede de Petri  Fábrica Modelo" alt="Alt text" src="images/rede_fabrica.png">
 Utilizou-se a métodologia de modelagem mista, ou seja, bottom-up e top-down. 
+
 ## Ferramentas e suas versões
  * `CPN Tools 4.0.1` 
-## Como Executar o Projeto
 
+## Como Executar o Projeto
+### Passo 1: Baixe e instale o CPN Tool
+[`Link`](https://cpntools.org/2018/01/16/download/)
+### Passo 2: Clone o Repositório Git
+Para copiar esse repositório remoto na sua máquina local, utilize o comando `git clone` com o HTTPS do repositório.
+
+```
+git clone https://github.com/valmyr/SED_2024.2-Projeto-2.git
+```
+### Passo 3: Execute o CPN Tools
+### Passo 4: Carregue o projeto
+Segure na barra `Create Tool Box` o botão direito do mouse e desloque o cursor para `Load Net`, navegue até o diretório onde foi realizado o clone do repositório SeuDiretorio/src e clique em `projeto_2_sed-V15_final.cpn` 
+### Passo 4: Para simular 
+Para uma explicação detalhada do funcionamento do sistema e uma demonstração da simulação,
+[Vídeo de Demonstração do Funcionamento](https://www.youtube.com/watch?v=Dyq_ksFtxUk)
