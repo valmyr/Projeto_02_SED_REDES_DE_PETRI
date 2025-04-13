@@ -1,4 +1,4 @@
-# Sistemas à Eventos Discretos
+# Sistemas a Eventos Discretos
  Aplicação dos conceitos contemplados na disciplina sobre Redes de Petri Coloridas.
 # Contribuidores
 - José Hélio de Araújo Júnior - 124212317
