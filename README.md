@@ -17,29 +17,29 @@ depósito de entrada da célula manufatura para o depósito de entrada da máqui
 transporta itens/produtos do depósito de saída da máquina 1 para os depósitos de entrada
 das máquinas 2 ou 3. Por fim, o robô 3 transporta itens dos depósitos de saída das
 máquinas 2 ou 3 para o depósito de saída da célula de manufatura.
-### Caracterização dos componentes e subcomponentes que compõe a modelagem do sistema.
+### Caracterização dos componentes e sub componentes que compõe a modelagem do sistema.
 #### Rede de Petri da Máquina 0x:
-Este subcomponente é modelo base de todas às máquinas, e é responsável por simular o processamento dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em retirar um item/produto da entrada e dispor à saída de seu respectivo depósito.
+Este sub componente é modelo base de todas às máquinas, e é responsável por simular o processamento dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em retirar um item/produto da entrada e dispor à saída de seu respectivo depósito.
 
 <img title="Rede de Petri Máquina Modelo Base" alt="Alt text" src="images/rede_maquina_base.png">
 
 ### Rede de Petri Rôbo 1
-Este subcomponente é responsável por simular o transporte dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em mover os itens/produtos da entrada da célula manufatura e dispor na entrada do depósito de máquina 1.
+Este sub componente é responsável por simular o transporte dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em mover os itens/produtos da entrada da célula manufatura e dispor na entrada do depósito de máquina 1.
 
 <img title="Rede de Petri Robô 1 Modelo Base" alt="Alt text" src="images/rede_robo_1_base.png">
 
 ### Rede de Petri Rôbo 2
-Este subcomponente é responsável por simular o transporte dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em mover os itens/produtos da saída do depósito da máquina 1 e dispor na entrada do depósito de máquina 2 ou da máquina 3.
+Este sub componente é responsável por simular o transporte dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em mover os itens/produtos da saída do depósito da máquina 1 e dispor na entrada do depósito de máquina 2 ou da máquina 3.
 
 <img title="Rede de Petri Robô 2 Modelo Base" alt="Alt text" src="images/rede_robo_2_base.png">
 
 ### Rede de Petri Rôbo 3
-Este subcomponente é responsável por simular o transporte dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em mover os itens/produtos da saída do depósito da máquina 2 ou da máquina 3 e dispor na saída da célula manufatura.
+Este sub componente é responsável por simular o transporte dos itens/produtos fictícios do sistema, seu funcionamente é uma abstração do sistema real e consiste em mover os itens/produtos da saída do depósito da máquina 2 ou da máquina 3 e dispor na saída da célula manufatura.
 
 <img title="Rede de Petri Robô 3 Modelo Base" alt="Alt text" src="images/rede_robo_3_base.png">
 
 ### Rede de Petri Célula Base 0x
-Este módulo é o modelo base de todas às células de manufatura e está em um nível de hierarquia distinto dos anteriores e tem a função de encadear/interligar-os todos os sub módulos anteriores para trabalhar em conjunto/sincronia, onde temos instâncias dos robôs, máquinas e limitadores de depósitos sejam de entradas ou de saídas e representa aàs células de manufatura da fábrica.
+Este módulo é o modelo base de todas às células de manufatura e está em um nível de hierarquia distinto dos anteriores e tem a função de encadear/interligar-os todos os sub módulos anteriores para trabalhar em conjunto/sincronia, onde temos instâncias dos robôs, máquinas e limitadores de depósitos sejam de entradas ou de saídas e representa às células de manufatura da fábrica.
 
 <img title="Rede de Petri Célula Modelo Base" alt="Alt text" src="images/rede_celula_base.png">
 
